@@ -180,7 +180,7 @@ uint32_t now = 0, last_print = 0;
 
 	  if (now - last_print >= 1000)
 	  {
-		  printf("Loop %lu %s\r\n", now, "ms");
+		  printf("Loop %lu %s\r\n", now / 1000, "s");
 		  last_print = now;
 	  }
     /* USER CODE END WHILE */
