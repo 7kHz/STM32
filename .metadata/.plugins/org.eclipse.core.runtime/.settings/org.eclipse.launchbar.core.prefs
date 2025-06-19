@@ -1,7 +1,12 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_blink Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_blink Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:DISCO_blink_2 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Black_pill_blink Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Black_pill_blink_2 Debug
 eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Black_pill_blink\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Black_pill_blink\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Black_pill_blink_2\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:DISCO_blink_2\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:DISCO_blink_2\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_blink\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_blink\ Debug/activeLaunchTarget=null\:---
